@@ -1,0 +1,280 @@
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - com.openpayment.account.provider.mega.jms.consumer.JmsPhotoConsumerImpl.onMessage(JmsPhotoConsumerImpl.java:76)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+2022-01-12 11:14:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - com.openpayment.account.provider.mega.jms.consumer.JmsPhotoConsumerImpl.onMessage(JmsPhotoConsumerImpl.java:76)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:317)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:255)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1166)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1158)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1055)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - java.base/java.lang.Thread.run(Thread.java:829
+2022-12-28 00:18:52.359 [http-nio-8080-exec-21] 188a903a110ea16c - 0552 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:18:52.426 [http-nio-8080-exec-21] 188a903a110ea16c - 0552 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:19:37.816 [http-nio-8080-exec-11] 40e4a0592655ca5e - 1780 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiI0MGU0YTA1OTI2NTVjYTVlIiwidXNlcl9uYW1lIjoiOTk2NTU2MTg1MDM3Iiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImZiYzQ3M2I0LTViZmEtNDQxYi1hOGRkLTQ4YTJiZjJiZjRiMSIsImV4cCI6MTY3MTczMTMyMiwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiNTE1Nzc3MDAtOWJjOS00MGE0LThkYzgtNzNiMzlmN2Q4NTMwIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.GMEk8WBR_HTrgCkJ_o75VvnG4rkgRe9ZaDKpJRwZmQY
+2022-12-28 00:19:37.921 [http-nio-8080-exec-45] 40e4a0592655ca5e - 3084 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiI0MGU0YTA1OTI2NTVjYTVlIiwidXNlcl9uYW1lIjoiOTk2NTU2MTg1MDM3Iiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImZiYzQ3M2I0LTViZmEtNDQxYi1hOGRkLTQ4YTJiZjJiZjRiMSIsImV4cCI6MTY3MTczMTMyMiwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiNTE1Nzc3MDAtOWJjOS00MGE0LThkYzgtNzNiMzlmN2Q4NTMwIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.GMEk8WBR_HTrgCkJ_o75VvnG4rkgRe9ZaDKpJRwZmQY
+2022-12-28 00:19:38.024 [http-nio-8080-exec-34] 40e4a0592655ca5e - 7311 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null2022-12-28 00:19:38.371 [http-nio-8080-exec-13] 40e4a0592655ca5e - 1504 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:19:38.457 [http-nio-8080-exec-24] 40e4a0592655ca5e - 9099 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:19:38.549 [http-nio-8080-exec-8] 40e4a0592655ca5e - 2598 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:19:38.640 [http-nio-8080-exec-43] 40e4a0592655ca5e - 2652 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:20:13.353 [http-nio-8080-exec-20] fff84aa7f702b7d6 - 9261 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - fff84aa7f702b7d6
+2022-12-28 00:20:13.353 [http-nio-8080-exec-20] fff84aa7f702b7d6 - 9261 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:20:52.517 [http-nio-8080-exec-4] a14b6abce55bea0e - 3085 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:22:08.926 [http-nio-8080-exec-2] 9dc531fd10960a41 - 0544 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996553050901
+2022-12-28 00:22:08.940 [http-nio-8080-exec-2] 9dc531fd10960a41 - 0544 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:22:09.225 [http-nio-8080-exec-2] 9dc531fd10960a41 - 0544 DEBUG c.o.impl.service.PaymentServiceImpl - SMS code:5788
+2022-12-28 00:22:45.321 [http-nio-8080-exec-42] 4294239a19195a0c - 2576 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 4294239a19195a0c
+2022-12-28 00:22:45.321 [http-nio-8080-exec-42] 4294239a19195a0c - 2576 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:22:45.364 [http-nio-8080-exec-12] 4294239a19195a0c - 0133 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 4294239a19195a0c
+2022-12-28 00:22:45.364 [http-nio-8080-exec-12] 4294239a19195a0c - 0133 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:23:02.349 [http-nio-8080-exec-46] 9dc531fd10960a41 - 3321 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 9dc531fd10960a41
+2022-12-28 00:23:02.349 [http-nio-8080-exec-46] 9dc531fd10960a41 - 3321 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:24:14.477 [http-nio-8080-exec-1] 2ee62d86e100db08 - 3905 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996551173434
+2022-12-28 00:24:39.376 [http-nio-8080-exec-50] E62BB9F5-4A91-47CF-8253-D94597666494 - 2009 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996755998807
+2022-12-28 00:24:39.387 [http-nio-8080-exec-50] E62BB9F5-4A91-47CF-8253-D94597666494 - 2009 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:24:39.453 [http-nio-8080-exec-50] E62BB9F5-4A91-47CF-8253-D94597666494 - 2009 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:25:27.534 [http-nio-8080-exec-50] d262e9c49736d2af - 2617 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - d262e9c49736d2af
+2022-12-28 00:25:27.534 [http-nio-8080-exec-50] d262e9c49736d2af - 2617 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:25:52.140 [http-nio-8080-exec-9] 2ee62d86e100db08 - 2056 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 2ee62d86e100db08
+2022-12-28 00:25:52.141 [http-nio-8080-exec-9] 2ee62d86e100db08 - 2056 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:25:52.161 [http-nio-8080-exec-33] 2ee62d86e100db08 - 7458 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 2ee62d86e100db08
+2022-12-28 00:25:52.161 [http-nio-8080-exec-33] 2ee62d86e100db08 - 7458 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:26:08.204 [http-nio-8080-exec-45] b8764e90b9597725 - 7665 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:26:21.430 [http-nio-8080-exec-9] d9e4a04dcc5ac2f9 - 1851 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:21.574 [http-nio-8080-exec-27] d9e4a04dcc5ac2f9 - 5119 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:21.709 [http-nio-8080-exec-10] d9e4a04dcc5ac2f9 - 1314 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:22.054 [http-nio-8080-exec-30] d9e4a04dcc5ac2f9 - 6889 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:22.254 [http-nio-8080-exec-43] d9e4a04dcc5ac2f9 - 7759 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:22.401 [http-nio-8080-exec-47] d9e4a04dcc5ac2f9 - 2356 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:38.571 [http-nio-8080-exec-33] b8764e90b9597725 - 8651 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - b8764e90b9597725
+2022-12-28 00:26:38.571 [http-nio-8080-exec-33] b8764e90b9597725 - 8651 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - b8764e90b9597725
+2022-12-28 00:26:38.571 [http-nio-8080-exec-33] b8764e90b9597725 - 8651 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:26:38.587 [http-nio-8080-exec-28] b8764e90b9597725 - 5678 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - b8764e90b9597725
+2022-12-28 00:26:38.587 [http-nio-8080-exec-28] b8764e90b9597725 - 5678 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:28:51.991 [http-nio-8080-exec-35] a73aedcb992bf532 - 8795 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - a73aedcb992bf532
+2022-12-28 00:28:51.991 [http-nio-8080-exec-35] a73aedcb992bf532 - 8795 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:00:35.531 [http-nio-8080-exec-43] 67ef6a6f034ab1ae - 7830 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996553388839, deviceId=67ef6a6f034ab1ae not found  | error message -> No entity found for query
+2022-12-28 00:00:26.515 [http-nio-8080-exec-36] dd846398b6602dd5 - 0828 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996999605906, deviceId=dd846398b6602dd5 not found  | error message -> No entity found for query
+2022-12-28 00:01:17.547 [http-nio-8080-exec-28] 18e26c61b95766b6 - 0780 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiIxOGUyNmM2MWI5NTc2NmI2IiwidXNlcl9uYW1lIjoiOTk2OTk5OTk3NzAzIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6IjhhMTk0MDgyLTFiOWMtNGI1OC05ODVkLTE2NjAwZTcwMGZlZSIsImV4cCI6MTY3MDg0NzgzMSwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiMTQ2YjM1NzYtYTNhNy00NjJjLWFjM2UtMjVjNTAyMDQ1ZGViIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.xzkUZ-8XpM9emj-5FsKVjQQCsk-_erhTGDLvseaEiko
+2022-12-28 00:00:35.531 [http-nio-8080-exec-43] 67ef6a6f034ab1ae - 7830 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996553388839, deviceId=67ef6a6f034ab1ae not found  | error message -> No entity found for query
+2022-12-28 00:00:26.515 [http-nio-8080-exec-36] dd846398b6602dd5 - 0828 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996999605906, deviceId=dd846398b6602dd5 not found  | error message -> No entity found for query
+2022-12-28 00:00:40.216 [http-nio-8080-exec-2] 49aee07f2a74e343 - 3631 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996990700746, deviceId=49aee07f2a74e343 not found  | error message -> No entity found for query
+2022-12-28 00:01:17.547 [http-nio-8080-exec-28] 18e26c61b95766b6 - 0780 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiIxOGUyNmM2MWI5NTc2NmI2IiwidXNlcl9uYW1lIjoiOTk2OTk5OTk3NzAzIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6IjhhMTk0MDgyLTFiOWMtNGI1OC05ODVkLTE2NjAwZTcwMGZlZSIsImV4cCI6MTY3MDg0NzgzMSwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiMTQ2YjM1NzYtYTNhNy00NjJjLWFjM2UtMjVjNTAyMDQ1ZGViIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.xzkUZ-8XpM9emj-5FsKVjQQCsk-_erhTGDLvseaEiko
+2022-12-28 00:01:19.201 [http-nio-8080-exec-27] 18e26c61b95766b6 - 7937 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiIxOGUyNmM2MWI5NTc2NmI2IiwidXNlcl9uYW1lIjoiOTk2OTk5OTk3NzAzIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6IjhhMTk0MDgyLTFiOWMtNGI1OC05ODVkLTE2NjAwZTcwMGZlZSIsImV4cCI6MTY3MDg0NzgzMSwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiMTQ2YjM1NzYtYTNhNy00NjJjLWFjM2UtMjVjNTAyMDQ1ZGViIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.xzkUZ-8XpM9emj-5FsKVjQQCsk-_erhTGDLvseaEiko
+2022-12-28 00:01:20.267 [http-nio-8080-exec-38] 18e26c61b95766b6 - 5735 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:21.439 [http-nio-8080-exec-4] 18e26c61b95766b6 - 9149 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:21.974 [http-nio-8080-exec-19] 18e26c61b95766b6 - 1920 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 3FB886FB-0894-4120-A5C4-12425DFA794A
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:02:52.161 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - c2066ba11c100ea4
+2022-12-28 00:02:52.161 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - c2066ba11c100ea4
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:20.995 [http-nio-8080-exec-20] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2671 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJCMDVBRkI5OS1DRjk0LTRFMEMtQjZBRS0wOTU0OTA2MkQ2RDEiLCJ1c2VyX25hbWUiOiI5OTY1NTUwMDE3NTciLCJzY29wZSI6WyJhbGwiXSwiYXRpIjoiNzc0ODZmZjUtMzhkNS00NjY0LWE0YzMtYzE5NTIwOWE0ODAwIiwiZXhwIjoxNjQ5MjI0ODUwLCJhdXRob3JpdGllcyI6WyJwYXltZW50LmNyZWF0ZSIsInBheW1lbnQucmVhZCJdLCJqdGkiOiJiMDYxN2Y2Zi1iODRhLTRjMTYtOGY1MS1mMTdlMDE4MWYzODkiLCJjbGllbnRfaWQiOiJtb2JpbGVJZDIifQ.Qn12ZVddR1AiOM3ot52xo0PENXxuDeIoauuXarsC-Mw
+2022-12-28 00:05:21.151 [http-nio-8080-exec-48] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6420 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJCMDVBRkI5OS1DRjk0LTRFMEMtQjZBRS0wOTU0OTA2MkQ2RDEiLCJ1c2VyX25hbWUiOiI5OTY1NTUwMDE3NTciLCJzY29wZSI6WyJhbGwiXSwiYXRpIjoiNzc0ODZmZjUtMzhkNS00NjY0LWE0YzMtYzE5NTIwOWE0ODAwIiwiZXhwIjoxNjQ5MjI0ODUwLCJhdXRob3JpdGllcyI6WyJwYXltZW50LmNyZWF0ZSIsInBheW1lbnQucmVhZCJdLCJqdGkiOiJiMDYxN2Y2Zi1iODRhLTRjMTYtOGY1MS1mMTdlMDE4MWYzODkiLCJjbGllbnRfaWQiOiJtb2JpbGVJZDIifQ.Qn12ZVddR1AiOM3ot52xo0PENXxuDeIoauuXarsC-Mw
+2022-12-28 00:05:21.253 [http-nio-8080-exec-51] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 4874 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.371 [http-nio-8080-exec-7] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 8143 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:07:05.172 [http-nio-8080-exec-11] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 5639 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0
+2022-12-28 00:07:05.172 [http-nio-8080-exec-11] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 5639 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:07:05.176 [http-nio-8080-exec-39] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 0423 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0
+2022-12-28 00:07:05.176 [http-nio-8080-exec-39] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 0423 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:08:10.985 [http-nio-8080-exec-44] 2b620239fb874177 - 5105 INFO  c.o.s.a.s.i.HalykVirtualSenderCardServiceImpl - RESPONSE: HalykVirtualResponse(status=ERROR, message=�������� ������ �������. ��������� ������ �������, data=null)
+2022-12-28 00:09:15.871 [http-nio-8080-exec-25] 6af5bc7c8ad08364 - 0680 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996995717101
+2022-12-28 00:09:15.883 [http-nio-8080-exec-25] 6af5bc7c8ad08364 - 0680 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:09:15.946 [http-nio-8080-exec-25] 6af5bc7c8ad08364 - 0680 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:09:35.538 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996995995570
+2022-12-28 00:09:35.551 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 INFO  c.o.impl.service.PaymentServiceImpl - ELSE Phone:996995995570, SUBS:22107881
+2022-12-28 00:09:35.552 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:09:35.553 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 INFO  c.o.impl.service.AgentServiceImpl - static pin false
+2022-12-28 00:09:35.615 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:09:54.412 [http-nio-8080-exec-25] 5445a7bdc581d6c3 - 0199 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - BILLING RESPONSE RESULT = b2.85
+2022-12-28 00:09:54.418 [http-nio-8080-exec-13] cb5c56ef5e1b38f8 - 9155 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - cb5c56ef5e1b38f8
+2022-12-28 00:09:54.418 [http-nio-8080-exec-13] cb5c56ef5e1b38f8 - 9155 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:09:54.418 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - cb5c56ef5e1b38f8
+2022-12-28 00:09:54.418 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:09:54.422 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:09:54.423 [http-nio-8080-exec-13] cb5c56ef5e1b38f8 - 9155 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:09:54.424 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 INFO  c.o.impl.dao.HalykCashierDaoImpl - NO HALYK BANK ACCOUNT
+2022-12-28 00:01:21.974 [http-nio-8080-exec-19] 18e26c61b95766b6 - 1920 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:22.352 [http-nio-8080-exec-23] 18e26c61b95766b6 - 4352 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:26.367 [http-nio-8080-exec-8] f1970fed79fe0ae4 - 1760 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - http://10.230.164.101:4647/X_WALLET?LOGIN=DEV_BILL&PASSWORD=[PROTECTED]&TYPE_REQUEST=5&MSISDN=996558233148
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 3FB886FB-0894-4120-A5C4-12425DFA794A
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:01:26.372 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:01:26.375 [http-nio-8080-exec-8] f1970fed79fe0ae4 - 1760 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - BILLING RESPONSE RESULT = b0
+2022-12-28 00:02:52.167 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 INFO  c.o.impl.dao.HalykCashierDaoImpl - NO HALYK BANK ACCOUNT
+2022-12-28 00:02:52.170 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - http://10.230.164.101:4647/X_WALLET?LOGIN=DEV_BILL&PASSWORD=[PROTECTED]&TYPE_REQUEST=5&MSISDN=996551551581
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - c2066ba11c100ea4
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:02:52.176 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:11.847 [http-nio-8080-exec-8] aa3491f3b00b4591 - 1126 INFO  c.o.i.s.AuthenticationFacadeImpl - FCM TOKEN NOT CHANGE!
+2022-12-28 00:05:11.865 [http-nio-8080-exec-13] 20ef1bc31775e2dd - 2130 DEBUG c.o.impl.service.PaymentServiceImpl - ���������� ������
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:21.371 [http-nio-8080-exec-7] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 8143 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.371 [http-nio-8080-exec-7] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 8143 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 INFO  c.o.s.w.s.s.CustomJdbcTokenStore - Failed to find refresh token for token null
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 INFO  c.o.s.w.s.s.CustomJdbcTokenStore - Failed to find refresh token for token null
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 INFO  c.o.s.w.s.s.CustomJdbcTokenStore - Failed to find refresh token for token null
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - com.openpayment.account.provider.mega.jms.consumer.JmsPhotoConsumerImpl.onMessage(JmsPhotoConsumerImpl.java:76)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+2022-01-12 11:14:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - com.openpayment.account.provider.mega.jms.consumer.JmsPhotoConsumerImpl.onMessage(JmsPhotoConsumerImpl.java:76)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:317)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:255)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1166)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1158)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1055)
+2022-01-12 11:11:53.242 [jmsContainer2-1]  ERROR c.o.a.p.m.j.c.JmsPhotoConsumerImpl - java.base/java.lang.Thread.run(Thread.java:829
+2022-12-28 00:18:52.359 [http-nio-8080-exec-21] 188a903a110ea16c - 0552 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:18:52.426 [http-nio-8080-exec-21] 188a903a110ea16c - 0552 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:19:37.816 [http-nio-8080-exec-11] 40e4a0592655ca5e - 1780 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiI0MGU0YTA1OTI2NTVjYTVlIiwidXNlcl9uYW1lIjoiOTk2NTU2MTg1MDM3Iiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImZiYzQ3M2I0LTViZmEtNDQxYi1hOGRkLTQ4YTJiZjJiZjRiMSIsImV4cCI6MTY3MTczMTMyMiwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiNTE1Nzc3MDAtOWJjOS00MGE0LThkYzgtNzNiMzlmN2Q4NTMwIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.GMEk8WBR_HTrgCkJ_o75VvnG4rkgRe9ZaDKpJRwZmQY
+2022-12-28 00:19:37.921 [http-nio-8080-exec-45] 40e4a0592655ca5e - 3084 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiI0MGU0YTA1OTI2NTVjYTVlIiwidXNlcl9uYW1lIjoiOTk2NTU2MTg1MDM3Iiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImZiYzQ3M2I0LTViZmEtNDQxYi1hOGRkLTQ4YTJiZjJiZjRiMSIsImV4cCI6MTY3MTczMTMyMiwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiNTE1Nzc3MDAtOWJjOS00MGE0LThkYzgtNzNiMzlmN2Q4NTMwIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.GMEk8WBR_HTrgCkJ_o75VvnG4rkgRe9ZaDKpJRwZmQY
+2022-12-28 00:19:38.024 [http-nio-8080-exec-34] 40e4a0592655ca5e - 7311 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null2022-12-28 00:19:38.371 [http-nio-8080-exec-13] 40e4a0592655ca5e - 1504 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:19:38.457 [http-nio-8080-exec-24] 40e4a0592655ca5e - 9099 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:19:38.549 [http-nio-8080-exec-8] 40e4a0592655ca5e - 2598 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:19:38.640 [http-nio-8080-exec-43] 40e4a0592655ca5e - 2652 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:20:13.353 [http-nio-8080-exec-20] fff84aa7f702b7d6 - 9261 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - fff84aa7f702b7d6
+2022-12-28 00:20:13.353 [http-nio-8080-exec-20] fff84aa7f702b7d6 - 9261 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:20:52.517 [http-nio-8080-exec-4] a14b6abce55bea0e - 3085 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:22:08.926 [http-nio-8080-exec-2] 9dc531fd10960a41 - 0544 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996553050901
+2022-12-28 00:22:08.940 [http-nio-8080-exec-2] 9dc531fd10960a41 - 0544 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:22:09.225 [http-nio-8080-exec-2] 9dc531fd10960a41 - 0544 DEBUG c.o.impl.service.PaymentServiceImpl - SMS code:5788
+2022-12-28 00:22:45.321 [http-nio-8080-exec-42] 4294239a19195a0c - 2576 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 4294239a19195a0c
+2022-12-28 00:22:45.321 [http-nio-8080-exec-42] 4294239a19195a0c - 2576 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:22:45.364 [http-nio-8080-exec-12] 4294239a19195a0c - 0133 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 4294239a19195a0c
+2022-12-28 00:22:45.364 [http-nio-8080-exec-12] 4294239a19195a0c - 0133 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:23:02.349 [http-nio-8080-exec-46] 9dc531fd10960a41 - 3321 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 9dc531fd10960a41
+2022-12-28 00:23:02.349 [http-nio-8080-exec-46] 9dc531fd10960a41 - 3321 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:24:14.477 [http-nio-8080-exec-1] 2ee62d86e100db08 - 3905 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996551173434
+2022-12-28 00:24:39.376 [http-nio-8080-exec-50] E62BB9F5-4A91-47CF-8253-D94597666494 - 2009 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996755998807
+2022-12-28 00:24:39.387 [http-nio-8080-exec-50] E62BB9F5-4A91-47CF-8253-D94597666494 - 2009 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:24:39.453 [http-nio-8080-exec-50] E62BB9F5-4A91-47CF-8253-D94597666494 - 2009 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:24:43.964 [http-nio-8080-exec-20] a14b6abce55bea0e - 3793 ERROR c.o.i.s.AuthenticationFacadeImpl - FCM CACHE FAIL!
+2022-12-28 00:25:27.534 [http-nio-8080-exec-50] d262e9c49736d2af - 2617 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - d262e9c49736d2af
+2022-12-28 00:25:27.534 [http-nio-8080-exec-50] d262e9c49736d2af - 2617 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:25:52.140 [http-nio-8080-exec-9] 2ee62d86e100db08 - 2056 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 2ee62d86e100db08
+2022-12-28 00:25:52.141 [http-nio-8080-exec-9] 2ee62d86e100db08 - 2056 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:25:52.161 [http-nio-8080-exec-33] 2ee62d86e100db08 - 7458 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 2ee62d86e100db08
+2022-12-28 00:25:52.161 [http-nio-8080-exec-33] 2ee62d86e100db08 - 7458 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:26:08.106 [http-nio-8080-exec-45] b8764e90b9597725 - 7665 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996558433212
+2022-12-28 00:26:08.119 [http-nio-8080-exec-45] b8764e90b9597725 - 7665 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:26:08.204 [http-nio-8080-exec-45] b8764e90b9597725 - 7665 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:26:21.430 [http-nio-8080-exec-9] d9e4a04dcc5ac2f9 - 1851 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:21.574 [http-nio-8080-exec-27] d9e4a04dcc5ac2f9 - 5119 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:21.709 [http-nio-8080-exec-10] d9e4a04dcc5ac2f9 - 1314 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:22.054 [http-nio-8080-exec-30] d9e4a04dcc5ac2f9 - 6889 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:22.254 [http-nio-8080-exec-43] d9e4a04dcc5ac2f9 - 7759 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:22.401 [http-nio-8080-exec-47] d9e4a04dcc5ac2f9 - 2356 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:26:38.571 [http-nio-8080-exec-33] b8764e90b9597725 - 8651 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - b8764e90b9597725
+2022-12-28 00:26:38.571 [http-nio-8080-exec-33] b8764e90b9597725 - 8651 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - b8764e90b9597725
+2022-12-28 00:26:38.571 [http-nio-8080-exec-33] b8764e90b9597725 - 8651 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:26:38.587 [http-nio-8080-exec-28] b8764e90b9597725 - 5678 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - b8764e90b9597725
+2022-12-28 00:26:38.587 [http-nio-8080-exec-28] b8764e90b9597725 - 5678 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:28:51.991 [http-nio-8080-exec-35] a73aedcb992bf532 - 8795 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - a73aedcb992bf532
+2022-12-28 00:28:51.991 [http-nio-8080-exec-35] a73aedcb992bf532 - 8795 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:00:35.531 [http-nio-8080-exec-43] 67ef6a6f034ab1ae - 7830 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996553388839, deviceId=67ef6a6f034ab1ae not found  | error message -> No entity found for query
+2022-12-28 00:00:26.515 [http-nio-8080-exec-36] dd846398b6602dd5 - 0828 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996999605906, deviceId=dd846398b6602dd5 not found  | error message -> No entity found for query
+2022-12-28 00:01:17.547 [http-nio-8080-exec-28] 18e26c61b95766b6 - 0780 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiIxOGUyNmM2MWI5NTc2NmI2IiwidXNlcl9uYW1lIjoiOTk2OTk5OTk3NzAzIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6IjhhMTk0MDgyLTFiOWMtNGI1OC05ODVkLTE2NjAwZTcwMGZlZSIsImV4cCI6MTY3MDg0NzgzMSwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiMTQ2YjM1NzYtYTNhNy00NjJjLWFjM2UtMjVjNTAyMDQ1ZGViIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.xzkUZ-8XpM9emj-5FsKVjQQCsk-_erhTGDLvseaEiko
+2022-12-28 00:00:35.531 [http-nio-8080-exec-43] 67ef6a6f034ab1ae - 7830 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996553388839, deviceId=67ef6a6f034ab1ae not found  | error message -> No entity found for query
+2022-12-28 00:00:26.515 [http-nio-8080-exec-36] dd846398b6602dd5 - 0828 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996999605906, deviceId=dd846398b6602dd5 not found  | error message -> No entity found for query
+2022-12-28 00:00:40.216 [http-nio-8080-exec-2] 49aee07f2a74e343 - 3631 INFO  c.o.a.p.p.s.PaylerKgBankAcquiringServiceImpl - CustomerId by msisdn=996990700746, deviceId=49aee07f2a74e343 not found  | error message -> No entity found for query
+2022-12-28 00:01:17.547 [http-nio-8080-exec-28] 18e26c61b95766b6 - 0780 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiIxOGUyNmM2MWI5NTc2NmI2IiwidXNlcl9uYW1lIjoiOTk2OTk5OTk3NzAzIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6IjhhMTk0MDgyLTFiOWMtNGI1OC05ODVkLTE2NjAwZTcwMGZlZSIsImV4cCI6MTY3MDg0NzgzMSwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiMTQ2YjM1NzYtYTNhNy00NjJjLWFjM2UtMjVjNTAyMDQ1ZGViIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.xzkUZ-8XpM9emj-5FsKVjQQCsk-_erhTGDLvseaEiko
+2022-12-28 00:01:19.201 [http-nio-8080-exec-27] 18e26c61b95766b6 - 7937 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiIxOGUyNmM2MWI5NTc2NmI2IiwidXNlcl9uYW1lIjoiOTk2OTk5OTk3NzAzIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6IjhhMTk0MDgyLTFiOWMtNGI1OC05ODVkLTE2NjAwZTcwMGZlZSIsImV4cCI6MTY3MDg0NzgzMSwiYXV0aG9yaXRpZXMiOlsicGF5bWVudC5jcmVhdGUiLCJwYXltZW50LnJlYWQiXSwianRpIjoiMTQ2YjM1NzYtYTNhNy00NjJjLWFjM2UtMjVjNTAyMDQ1ZGViIiwiY2xpZW50X2lkIjoibW9iaWxlSWQyIn0.xzkUZ-8XpM9emj-5FsKVjQQCsk-_erhTGDLvseaEiko
+2022-12-28 00:01:20.267 [http-nio-8080-exec-38] 18e26c61b95766b6 - 5735 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:21.439 [http-nio-8080-exec-4] 18e26c61b95766b6 - 9149 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:21.974 [http-nio-8080-exec-19] 18e26c61b95766b6 - 1920 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 3FB886FB-0894-4120-A5C4-12425DFA794A
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:02:52.161 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - c2066ba11c100ea4
+2022-12-28 00:02:52.161 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - c2066ba11c100ea4
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:20.995 [http-nio-8080-exec-20] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2671 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token (expired): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJCMDVBRkI5OS1DRjk0LTRFMEMtQjZBRS0wOTU0OTA2MkQ2RDEiLCJ1c2VyX25hbWUiOiI5OTY1NTUwMDE3NTciLCJzY29wZSI6WyJhbGwiXSwiYXRpIjoiNzc0ODZmZjUtMzhkNS00NjY0LWE0YzMtYzE5NTIwOWE0ODAwIiwiZXhwIjoxNjQ5MjI0ODUwLCJhdXRob3JpdGllcyI6WyJwYXltZW50LmNyZWF0ZSIsInBheW1lbnQucmVhZCJdLCJqdGkiOiJiMDYxN2Y2Zi1iODRhLTRjMTYtOGY1MS1mMTdlMDE4MWYzODkiLCJjbGllbnRfaWQiOiJtb2JpbGVJZDIifQ.Qn12ZVddR1AiOM3ot52xo0PENXxuDeIoauuXarsC-Mw
+2022-12-28 00:05:21.151 [http-nio-8080-exec-48] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6420 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZpY2VfaWQiOiJCMDVBRkI5OS1DRjk0LTRFMEMtQjZBRS0wOTU0OTA2MkQ2RDEiLCJ1c2VyX25hbWUiOiI5OTY1NTUwMDE3NTciLCJzY29wZSI6WyJhbGwiXSwiYXRpIjoiNzc0ODZmZjUtMzhkNS00NjY0LWE0YzMtYzE5NTIwOWE0ODAwIiwiZXhwIjoxNjQ5MjI0ODUwLCJhdXRob3JpdGllcyI6WyJwYXltZW50LmNyZWF0ZSIsInBheW1lbnQucmVhZCJdLCJqdGkiOiJiMDYxN2Y2Zi1iODRhLTRjMTYtOGY1MS1mMTdlMDE4MWYzODkiLCJjbGllbnRfaWQiOiJtb2JpbGVJZDIifQ.Qn12ZVddR1AiOM3ot52xo0PENXxuDeIoauuXarsC-Mw
+2022-12-28 00:05:21.253 [http-nio-8080-exec-51] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 4874 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.371 [http-nio-8080-exec-7] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 8143 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:07:05.172 [http-nio-8080-exec-11] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 5639 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0
+2022-12-28 00:07:05.172 [http-nio-8080-exec-11] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 5639 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:07:05.176 [http-nio-8080-exec-39] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 0423 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0
+2022-12-28 00:07:05.176 [http-nio-8080-exec-39] FF06D6C6-31BB-4DC7-BFE8-1AAB5B76C0F0 - 0423 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:08:10.985 [http-nio-8080-exec-44] 2b620239fb874177 - 5105 INFO  c.o.s.a.s.i.HalykVirtualSenderCardServiceImpl - RESPONSE: HalykVirtualResponse(status=ERROR, message=�������� ������ �������. ��������� ������ �������, data=null)
+2022-12-28 00:09:15.871 [http-nio-8080-exec-25] 6af5bc7c8ad08364 - 0680 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996995717101
+2022-12-28 00:09:15.883 [http-nio-8080-exec-25] 6af5bc7c8ad08364 - 0680 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:09:15.946 [http-nio-8080-exec-25] 6af5bc7c8ad08364 - 0680 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:09:35.538 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 ERROR c.o.impl.service.AgentServiceImpl - NoResultException for userName: 996995995570
+2022-12-28 00:09:35.551 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 INFO  c.o.impl.service.PaymentServiceImpl - ELSE Phone:996995995570, SUBS:22107881
+2022-12-28 00:09:35.552 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 ERROR c.o.impl.service.PaymentServiceImpl - null
+2022-12-28 00:09:35.553 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 INFO  c.o.impl.service.AgentServiceImpl - static pin false
+2022-12-28 00:09:35.615 [http-nio-8080-exec-28] cb5c56ef5e1b38f8 - 4799 ERROR c.o.i.s.HalykCashierServiceImpl - On select halykCashierEntity by cashierId = null | error -> null
+2022-12-28 00:09:54.412 [http-nio-8080-exec-25] 5445a7bdc581d6c3 - 0199 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - BILLING RESPONSE RESULT = b2.85
+2022-12-28 00:09:54.418 [http-nio-8080-exec-13] cb5c56ef5e1b38f8 - 9155 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - cb5c56ef5e1b38f8
+2022-12-28 00:09:54.418 [http-nio-8080-exec-13] cb5c56ef5e1b38f8 - 9155 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:09:54.418 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - cb5c56ef5e1b38f8
+2022-12-28 00:09:54.418 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:09:54.422 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:09:54.423 [http-nio-8080-exec-13] cb5c56ef5e1b38f8 - 9155 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:09:54.424 [http-nio-8080-exec-4] cb5c56ef5e1b38f8 - 1680 INFO  c.o.impl.dao.HalykCashierDaoImpl - NO HALYK BANK ACCOUNT
+2022-12-28 00:01:21.974 [http-nio-8080-exec-19] 18e26c61b95766b6 - 1920 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:22.352 [http-nio-8080-exec-23] 18e26c61b95766b6 - 4352 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:01:26.367 [http-nio-8080-exec-8] f1970fed79fe0ae4 - 1760 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - http://10.230.164.101:4647/X_WALLET?LOGIN=DEV_BILL&PASSWORD=[PROTECTED]&TYPE_REQUEST=5&MSISDN=996558233148
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - 3FB886FB-0894-4120-A5C4-12425DFA794A
+2022-12-28 00:01:26.368 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:01:26.372 [http-nio-8080-exec-40] 3FB886FB-0894-4120-A5C4-12425DFA794A - 7293 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:01:26.375 [http-nio-8080-exec-8] f1970fed79fe0ae4 - 1760 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - BILLING RESPONSE RESULT = b0
+2022-12-28 00:02:52.167 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 INFO  c.o.impl.dao.HalykCashierDaoImpl - NO HALYK BANK ACCOUNT
+2022-12-28 00:02:52.170 [http-nio-8080-exec-19] c2066ba11c100ea4 - 2045 INFO  c.o.a.p.m.s.MegaWithdrawServiceImpl - http://10.230.164.101:4647/X_WALLET?LOGIN=DEV_BILL&PASSWORD=[PROTECTED]&TYPE_REQUEST=5&MSISDN=996551551581
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - c2066ba11c100ea4
+2022-12-28 00:02:52.172 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:02:52.176 [http-nio-8080-exec-24] c2066ba11c100ea4 - 4104 INFO  c.o.i.s.AuthenticationFacadeImpl - SAVE FCM TOKEN IN DB AND CACHE
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.847 [http-nio-8080-exec-34] EE597DFD-75DD-4081-B488-B56EBE1E349E - 5604 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:11.847 [http-nio-8080-exec-8] aa3491f3b00b4591 - 1126 INFO  c.o.i.s.AuthenticationFacadeImpl - FCM TOKEN NOT CHANGE!
+2022-12-28 00:05:11.865 [http-nio-8080-exec-13] 20ef1bc31775e2dd - 2130 DEBUG c.o.impl.service.PaymentServiceImpl - ���������� ������
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - NO TOKENS FOUND FOR DEVICEID - EE597DFD-75DD-4081-B488-B56EBE1E349E
+2022-12-28 00:05:11.868 [http-nio-8080-exec-33] EE597DFD-75DD-4081-B488-B56EBE1E349E - 8401 ERROR c.o.impl.dao.NotificationDaoImpl - Index 0 out of bounds for length 0
+2022-12-28 00:05:21.371 [http-nio-8080-exec-7] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 8143 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.371 [http-nio-8080-exec-7] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 8143 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 INFO  c.o.s.w.s.s.CustomJdbcTokenStore - Failed to find refresh token for token null
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.498 [http-nio-8080-exec-6] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 2797 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 INFO  c.o.s.w.s.s.CustomJdbcTokenStore - Failed to find refresh token for token null
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.625 [http-nio-8080-exec-1] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 6924 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 INFO  c.o.s.w.s.s.CustomJdbcTokenStore - Failed to find refresh token for token null
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 ERROR c.o.s.w.s.s.CustomTokenEndpoint - Invalid refresh token: null
+2022-12-28 00:05:21.734 [http-nio-8080-exec-3] A5595085-7DB1-46CC-B8D5-7AE4FF9F0E3E - 3510 INFO  c.o.s.w.s.s.CustomTokenEndpoint - AUTHORIZATION FAILED
